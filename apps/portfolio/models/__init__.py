@@ -1,5 +1,5 @@
-from apps.signal.models.signal import Signal
+from apps.portfolio.models.exchange import Exchange
 
 __all__ = [
-    Signal,
+    Exchange,
 ]
