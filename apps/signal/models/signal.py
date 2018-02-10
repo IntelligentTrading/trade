@@ -14,7 +14,7 @@ class Signal(Timestampable, models.Model):
 
     timestamp = UnixTimeStampField(null=False)
     transaction_currency = models.CharField(max_length=6, null=False, blank=False)
-    counter_currency = models.SmallIntegerField(choices=Price.COUNTER_CURRENCY_CHOICES, null=False, default=Price.BTC)
+    counter_currency = models.CharField(max_length=6, null=False, blank=False)
 
     signal = models.CharField(max_length=15, null=True)
     trend = models.CharField(max_length=15, null=True)
