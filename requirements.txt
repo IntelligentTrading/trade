@@ -12,6 +12,7 @@ ipython==5.1.0
 jsonfield==1.0.3
 numpy==1.13.3
 pycrypto==2.6.1
+python-binance==0.6.4
 python-dateutil==2.6.0
 psycopg2==2.7.3
 pytz==2016.10
