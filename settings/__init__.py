@@ -70,6 +70,7 @@ INSTALLED_APPS = [
     'apps.common',
     'apps.user',
     'apps.signal',
+    'apps.portfolio',
 
     # DJANGO APPS
     'django.contrib.admin',
